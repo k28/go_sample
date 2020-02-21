@@ -1,5 +1,7 @@
 # Go Sample
 
+For Golang study...
+
 
 ## Install Go
 ```
@@ -17,6 +19,5 @@ $ go get github.com/motemen/gore/cmd/gore
 $ go get github.com/mdempsk/gocode
 $ go get github.com/k0kubun/pp
 ```
-
 
 
