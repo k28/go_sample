@@ -2,10 +2,11 @@
 
 ## Vim
 
-### Install Language Server
+### Install Language Server and tools
 ```
 $ go get -u golang.org/x/tools/gopls
 $ go get -u github.com/sourcegraph/go-langserver
+$ go get golang.org/x/tools/cmd/goimports
 ```
 ### vimrc
 ```
