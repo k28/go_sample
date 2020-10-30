@@ -8,11 +8,18 @@ $ go get -u golang.org/x/tools/gopls
 $ go get -u github.com/sourcegraph/go-langserver
 $ go get golang.org/x/tools/cmd/goimports
 ```
+
+### dein.toml
+```
+# for golang
+[[plugins]]
+repo = 'mattn/vim-lsp-settings'
+
+[[plugins]]
+repo = 'mattn/vim-goimports'
+```
 ### vimrc
 ```
-" for golang
-NeoBundle 'mattn/vim-lsp-settings'
-NeoBundle 'mattn/vim-goimports'
 
 " go lsp-setting
 if executable('gopls')
