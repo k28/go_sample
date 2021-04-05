@@ -14,6 +14,13 @@ func array() {
 	primes := [6]int{2, 3, 5, 7, 11, 13}
 	fmt.Println(primes)
 
+	// Loop
+	for i, v := range primes {
+		fmt.Println(i, v)
+	}
+	// if not need index
+	// for _, v := range primes
+
 	// The type []T slice with elements of type T
 	// Thes selects a half-open range which includes then first one, but excludes the last one.
 	var s []int = primes[1:4] // [3 5 7]
